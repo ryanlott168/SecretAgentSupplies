@@ -13,13 +13,17 @@ html {
   flex-wrap: wrap;
 }
 
-body, header, main,  section, nav {
+body, header, main,  section, nav, footer{
   width: 100%;
   justify-content: center;
 }
 
 .site-container {
   width: 960px;
+}
+
+.center {
+  text-align: center;
 }
 
 .blackground {
@@ -114,6 +118,29 @@ nav span {
 
 #stock span {
   width: 100%;
-  text-align: center;
   padding: .5rem 0;
 }
+
+/* Contact Section */
+#contact {
+  margin-bottom: 4rem;
+}
+.contact-elements {
+  width: 35%;
+}
+
+#contact .title {
+  padding: 1rem 0 1rem 2rem;
+  width: 100%;
+}
+
+ /* Footer */
+
+ footer {
+   height: 5rem;
+ }
+
+ footer .site-container {
+   align-items: center;
+   text-align: left;
+ }

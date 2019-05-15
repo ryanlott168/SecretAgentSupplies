@@ -9,7 +9,7 @@ html {
   display: flex;
 }
 
-body, header, main,  section{
+body, header, main,  section, nav{
   width: 100%;
   border: 1px red solid;
   justify-content: center;
@@ -21,8 +21,12 @@ body, header, main,  section{
   border: 1px red solid;
 }
 
-.black {
+.blackground {
   background-color: black;
+}
+
+.space-b {
+  justify-content: space-between;
 }
 
 /* Header */
@@ -38,13 +42,16 @@ header span {
   display: inline-block;
 }
 
-header, #banner {
+.uppercase {
   text-transform: uppercase;
+}
+
+.white {
   color: white;
 }
 /* Main */
 
-/* Advertisement */
+/* Banner */
 
 #banner {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
@@ -72,4 +79,19 @@ header, #banner {
 #banner .text-container span:nth-child(2) {
   margin-top: .25rem;
   font-size: 2rem;
+}
+
+
+/* Nav Bar */
+
+nav {
+  background-color: firebrick;
+}
+
+nav .site-container {
+  border: 1px black solid;
+}
+
+nav span {
+  margin: .75em;
 }
